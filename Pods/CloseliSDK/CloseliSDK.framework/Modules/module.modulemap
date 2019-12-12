@@ -1,0 +1,62 @@
+
+framework module CloseliSDK {
+    header "CloseliSDK.h"
+    header "CLSDKProtocol.h"
+    header "CLCommonProtocol.h"
+    header "CLSDKHeader.h"
+    header "CLXHttpClientProtocol.h"
+    header "CLXPlusProtocol.h"
+    header "CLRegionDispatcher.h"
+    header "CLSDKHeader.h"
+    header "CLXRegionDispatcherProtocol.h"
+    header "CLXHttpClientDefine.h"
+    header "CLXAccountProtocol.h"
+    header "CLXCommonServiceProtocol.h"
+    header "CLXDeviceProtocol.h"
+    header "CLXFaceRecognitionProtocol.h"
+    header "CLXFaceDetectionProtocol.h"
+    header "CLXNotificationProtocol.h"
+    header "CLXOperationHelperProtocol.h"
+    header "CLXPurchaseProtocol.h"
+    header "CLXRegionDispatcherProtocol.h"
+    header "CLXDeviceSettingProtocol.h"
+    header "CLXSMBProtocol.h"
+    header "CLXIndustryProtocol.h"
+    header "CLCloudUserInfo.h"
+    header "CLXAccountInfo.h"
+    header "CLXHttpClientDefine.h"
+    header "CLXUserLoginLog.h"
+    header "CLXSMBLoginInfo.h"
+    header "CLXSMBStoreList.h"
+    header "CLXDevice.h"
+    header "CLXDeviceUpdateInfo.h"
+    header "CLXGateWayInfo.h"
+    header "CLCameraDevice.h"
+    header "CLXDeviceSetting.h"
+    header "CLXDeviceSettingDefine.h"
+    header "CLXDeviceSetingTextDefine.h"
+    header "CLCameraUpdateInfo.h"
+    header "CLCameraExtraSettings.h"
+    header "CLCameraUpdateInfo.h"
+    header "CLXSMBDeviceList.h"
+    header "CLXSMBDeviceList.h"
+    header "CLXTimelineInterval.h"
+    header "CLXFileInfo.h"
+    header "CLXDeviceDataModel.h"
+    header "CLXHttpClientDefine.h"
+    header "CLTimelineEventClip.h"
+    header "CLScheduleInfo.h"
+    header "CLTimelineConst.h"
+    header "CLXFaceDetectionModel.h"
+
+
+
+
+
+
+
+
+    export *
+    link "z"
+    link "sqlite3"
+    }

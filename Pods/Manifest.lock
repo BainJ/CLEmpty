@@ -1,0 +1,16 @@
+PODS:
+  - CloseliSDK (4.0.0.1)
+
+DEPENDENCIES:
+  - CloseliSDK
+
+SPEC REPOS:
+  http://gitlab.closeli.cc/MTR/CLSDK_Cocoapods_iOS.git:
+    - CloseliSDK
+
+SPEC CHECKSUMS:
+  CloseliSDK: e65248d05dc19b349995c879c6b042b751f99fe6
+
+PODFILE CHECKSUM: 92bb3b330dc0a8705e2d7a21ce5511e1ebb20581
+
+COCOAPODS: 1.8.4
